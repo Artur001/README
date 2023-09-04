@@ -1,29 +1,29 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Artur Bytyqi
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|   18.08.23    | 1.0.0   | Programm begonnen und fertig gemacht |
+|  01.09.23     | 1.0.1    |     Projekt-Dokumentation auf GitHub gewechselt    |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
-
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Mein Projekt ist ein normales Spiel, wo man Zahlen von 1-100 erraten soll. Es hat noch kleine andere Funktionen. 
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |               |   Funktion   | Als ein Benutzer, soll das Programm funktionieren und benutzbar sein |
+| 2  |                 |  Funktion    |Als ein Benutzer, soll das Programm eine Zahl zwischen 1-100 generieren|
+| 3  |                 |  Funktion    |Als ein Benutzer, soll ich begrüsst werden|
+| 4  |                 |  Funktion    |Als ein Benutzer soll ich eine Zahl erraten können|
+| 5  |                 |  Funktion    |Als ein Benutzer, soll ich benachrichtigt werden, wenn meine erratene Zahl kleiner ist|
+| 6  |                 |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, soll die Zahl die ich erraten habe, grösser ist|
+| 7  |                 |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, wenn die Zahl erraten habe|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
