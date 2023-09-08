@@ -1,6 +1,7 @@
 # Projekt-Dokumentation
 
 Artur Bytyqi
+KOSOVO JE SRBIJA
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -17,64 +18,28 @@ Mein Projekt ist ein normales Spiel, wo man Zahlen von 1-100 erraten soll. Es ha
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |               |   Funktion   | Als ein Benutzer, soll das Programm funktionieren und benutzbar sein |
-| 2  |                 |  Funktion    |Als ein Benutzer, soll das Programm eine Zahl zwischen 1-100 generieren|
-| 3  |                 |  Funktion    |Als ein Benutzer, soll ich begrüsst werden|
-| 4  |                 |  Funktion    |Als ein Benutzer soll ich eine Zahl erraten können|
-| 5  |                 |  Funktion    |Als ein Benutzer, soll ich benachrichtigt werden, wenn meine erratene Zahl kleiner ist|
-| 6  |                 |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, soll die Zahl die ich erraten habe, grösser ist|
-| 7  |                 |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, wenn die Zahl erraten habe|
+| 1    |    Muss           |   Funktion   | Als ein Benutzer, soll das Programm funktionieren und benutzbar sein |
+| 2  |          Muss       |  Funktion    |Als ein Benutzer, soll das Programm eine Zahl zwischen 1-100 generieren|
+| 3  |              Muss   |  Funktion    |Als ein Benutzer soll ich eine Zahl erraten können|
+| 5  |      Muss           |  Funktion    |Als ein Benutzer, soll ich benachrichtigt werden, wenn meine erratene Zahl kleiner ist|
+| 6  |          Muss       |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, soll die Zahl die ich erraten habe, grösser ist|
+| 7  |              Muss   |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, wenn die Zahl erraten habe|
+| 8  |              Muss   |  Funktion    |  Als ein Benutzer, soll mir, wenn ich die Zahl erraten habe, angezeigt werden, wieviele Versuche ich gebraucht habe |
+| 9  |              Kann   | Qualität    |  Als ein Benutzer, soll der Text "ausgeschrieben" werden und nicht plötzlich angezeigt werden|
+| 10  |              Muss   |  Funktion    |  Als ein Benutzer, soll ich gefragt werden, ob ich nochmals spielen will|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |    Programm gestartet|   -     |    Es soll eine Zahl generiert werdem             |
+| 2.1  |  Programm läuft            |   User ratet eine Zahl    |     Es soll dem User sagen, ob es richtig oder falsch ist.              |
+| 2.2  |  Programm läuft            |    keine     |     Es soll dem User sagen, ob die Zahl grösser oder kleiner ist.             |
+| 2.3  |  Programm läuft            |    Buchstabe     |    Es soll dem Benutzer sagen, er soll eine Zahl schreiben und keine Buchstaben             |
+| 2.4  |  Programm läuft            |    Zahl erraten     |     Programm soll dem Benutzer sagen, wieviel Versuche er gebraucht hat            |
+| 2.4  |  Programm läuft            |    -     |     Programm soll den Benutzer fragen, ob er nochmal spielen möchte  ( Y | N )       |
+| 2.4  |  Programm läuft            |    Y     |     Programm soll das Spiel neustarten          |
+| 2.4  |  Programm läuft            |    N     |     Programm soll beendet werden
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme
-
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
-
-## 2 Planen
-
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
-
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
-## 3 Entscheiden
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
-
-## 4 Realisieren
-
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
-
-## 5 Kontrollieren
-
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
-
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
