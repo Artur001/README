@@ -1,7 +1,6 @@
 # Projekt-Dokumentation
 
 Artur Bytyqi
-KOSOVO JE SRBIJA
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -35,11 +34,29 @@ Mein Projekt ist ein normales Spiel, wo man Zahlen von 1-100 erraten soll. Es ha
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |    Programm gestartet|   -     |    Es soll eine Zahl generiert werdem             |
 | 2.1  |  Programm läuft            |   User ratet eine Zahl    |     Es soll dem User sagen, ob es richtig oder falsch ist.              |
-| 2.2  |  Programm läuft            |    keine     |     Es soll dem User sagen, ob die Zahl grösser oder kleiner ist.             |
-| 2.3  |  Programm läuft            |    Buchstabe     |    Es soll dem Benutzer sagen, er soll eine Zahl schreiben und keine Buchstaben             |
-| 2.4  |  Programm läuft            |    Zahl erraten     |     Programm soll dem Benutzer sagen, wieviel Versuche er gebraucht hat            |
-| 2.4  |  Programm läuft            |    -     |     Programm soll den Benutzer fragen, ob er nochmal spielen möchte  ( Y | N )       |
-| 2.4  |  Programm läuft            |    Y     |     Programm soll das Spiel neustarten          |
-| 2.4  |  Programm läuft            |    N     |     Programm soll beendet werden
+| 3.1  |  Programm läuft            |    User ratet eine Zahl     |     Es soll dem User sagen, ob die Zahl grösser ist.      |
+|4.1  |  Programm läuft            |    User ratet eine Zahl     |  Es soll dem User sagen, ob die Zahl kleiner ist.                       |
+| 5.1  |  Programm läuft            |    Zahl richtig erraten     |     Programm soll dem Benutzer sagen, wieviel Versuche er gebraucht hat            |
+| 5.2  |  Programm läuft            |    Zahl erraten     |     Programm soll den Benutzer loben.
+| 6.1  |  Programm läuft            |    Buchstabe   |     Programm soll dem Benutzer sagem, er soll nur Zahlen benutzen und keine Buchstaben.           |
+| 7.1  |  Programm läuft            |    -   |     Programm soll seinen Text "ausschreiben" und nicht plötzlich auftauchen lassen.           |
+| 8.1  |  Programm läuft            |    -     |     Programm soll den Benutzer fragen, ob er nochmal spielen möchte  ( Y / N )       |
+| 8.2  |  Programm läuft            |    Y     |     Programm soll das Spiel neustarten          |
+| 8.3  |  Programm läuft            |    N     |     Programm soll beendet werden |
 
 
+### Testprotokoll
+
+ 
+
+| TC-№ | Datum | Resultat | Tester |Testumgebung|
+| ---- | ----- | -------- | ------ | ------ |
+| 1.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 2.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 2.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 3.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 3.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 4.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 4.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 5.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 5.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
