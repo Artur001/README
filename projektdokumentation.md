@@ -53,10 +53,12 @@ Mein Projekt ist ein normales Spiel, wo man Zahlen von 1-100 erraten soll. Es ha
 | ---- | ----- | -------- | ------ | ------ |
 | 1.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
 | 2.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
-| 2.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
 | 3.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
-| 3.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
 | 4.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
-| 4.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
 | 5.1  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
 | 5.2  |    01.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 6.1  |    08.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 7.1  |    08.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 8.1  |    08.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 8.2  |    08.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
+| 8.3  |    08.09.2023   |     Funktioniert     |  Artur Bytyqi      |Windows 11|
