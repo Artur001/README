@@ -1,0 +1,6 @@
+C:\Users\artur\source\repos\alrightdude\alrightdude\bin\Debug\alrightdude.exe
+C:\Users\artur\source\repos\alrightdude\alrightdude\bin\Debug\alrightdude.pdb
+C:\Users\artur\source\repos\alrightdude\alrightdude\obj\Debug\alrightdude.csproj.AssemblyReference.cache
+C:\Users\artur\source\repos\alrightdude\alrightdude\obj\Debug\alrightdude.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\alrightdude\alrightdude\obj\Debug\alrightdude.exe
+C:\Users\artur\source\repos\alrightdude\alrightdude\obj\Debug\alrightdude.pdb
