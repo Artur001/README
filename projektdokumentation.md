@@ -6,19 +6,22 @@ Artur Bytyqi
 | ----- | ------- | ------------------------------------------------------------ |
 |   18.08.23    | 1.0.0   | Programm begonnen und fertig gemacht |
 |  01.09.23     | 1.0.1    |     Projekt-Dokumentation auf GitHub gewechselt    |
+|  07.01.24     | 1.1.0    |     Update der Dokumentation    |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Mein Projekt ist ein normales Spiel, wo man Zahlen von 1-100 erraten soll. Es hat noch kleine andere Funktionen. 
+**Ziel des Projekts:** Entwicklung eines Spiels, bei dem der Benutzer eine zufällig generierte Zahl zwischen 1 und 100 erraten muss. Der Fokus liegt auf der Anwendung von OOP.
+
+**Produktbeschreibung:** Das Programm bietet ein Zahlenratenspiel mit Benutzerfeedback. Der Spieler wird informiert, ob die erratene Zahl zu hoch oder zu niedrig ist. Nach dem Erraten der Zahl zeigt das Spiel die Anzahl der benötigten Versuche an und gibt die Möglichkeit, das Spiel neu zu starten.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1  |          Muss       |  Funktion    |Als ein Benutzer, soll das Programm eine Zahl zwischen 1-100 generieren|
-| 2  |              Muss   |  Funktion    |Als ein Benutzer soll ich eine Zahl erraten können|
+| 1  |          Muss       |  Funktion    |Als Benutzer möchte ich, dass das Programm automatisch eine Zahl zwischen 1-100 generiert.|
+| 2  |              Muss   |  Funktion    |Als ein Benutzer soll ich Feedback bekommen, ob die Zahl richtig oder falsch ist.|
 | 3  |      Muss           |  Funktion    |Als ein Benutzer, soll ich benachrichtigt werden, wenn meine erratene Zahl kleiner ist|
 | 4  |          Muss       |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, soll die Zahl die ich erraten habe, grösser ist|
 | 5  |              Muss   |  Funktion    |  Als ein Benutzer, soll ich benachrichtigt werden, wenn die Zahl erraten habe|
